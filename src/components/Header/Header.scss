@@ -1,0 +1,25 @@
+header {
+    width: 100%;
+    overflow: hidden;
+    background: url(../../assets//background_2.png) no-repeat;
+    background-size: 100% 40rem;
+    background-position: 0rem 25rem;
+}
+
+@media all and (max-width: 1024px) {
+    header {}
+}
+
+@media all and (max-width: 769px) {
+    header {
+        background-size: 110% 50rem;
+        background-position: 0rem 10rem;
+    }
+}
+
+@media all and (max-width: 426px) {
+    header {
+        background-size: 100% 20rem;
+        background-position: 0rem 10rem;
+    }
+}

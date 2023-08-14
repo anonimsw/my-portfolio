@@ -1,0 +1,81 @@
+footer {
+    background: rgb(30, 30, 32);
+
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: relative;
+        padding: 2rem 0;
+
+        p {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        a {
+            width: 75px;
+
+            img {
+                width: 75px;
+            }
+        }
+
+        &::after {
+            content: "";
+            width: 100%;
+            position: absolute;
+            height: 1px;
+            background: rgba(224, 224, 224, 0.136);
+            top: 0;
+            left: 0;
+        }
+    }
+}
+
+@media all and (max-width: 1024px) {
+    footer {
+        .container {
+            padding: 1rem 0 2rem 0;
+        }
+    }
+}
+
+@media all and (max-width: 769px) {
+    footer {
+        .container {
+            padding: 0.5rem 0 1.5rem 0;
+
+            p {
+                font-size: 14px;
+            }
+
+            a {
+                width: 50px;
+
+                img {
+                    width: 50px;
+                }
+            }
+        }
+    }
+}
+
+@media all and (max-width: 426px) {
+    footer {
+        .container {
+            padding: 0.5rem 0 1rem 0;
+            p {
+                font-size: 8px;
+            }
+
+            a {
+                width: 40px;
+
+                img {
+                    width: 40px;
+                }
+            }
+        }
+    }
+}
