@@ -6,8 +6,8 @@ const About_me = () => {
         <div className='about--me' id='me'>
             <div className="container">
                 <div className="left">
-                    <img src="" alt="" className='img--1' />
-                    <img src="" alt="" className='img--2' />
+                    <img src="https://api2.sololearn.com/v2/certificates/CC-TJ2UCGUI/image/png" alt="" className='img--1' />
+                    <img src="https://api2.sololearn.com/v2/certificates/CC-TJ2UCGUI/image/png" alt="" className='img--2' />
                 </div>
                 <div className="right">
                     <strong>
